@@ -8,7 +8,7 @@ nav_order: 2
 
 `Config.Locale` == Main language for notifications and NUI labels. (e.g., 'hr', 'en').
 
-`Config.BeehiveItem` = "beehive_box" == Inventory item required to place a hive. Player must have it.
+`Config.BeehiveItem` = "beehive_box" == Inventory item required to place a hive.. Player must have it.
 
 `Config.BeehiveBox` = `3m_beebox`  == Ensure the model assets are loaded via some started resource.
 
