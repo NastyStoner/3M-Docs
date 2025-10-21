@@ -1,7 +1,8 @@
+---
 title: Usage
 parent: beekeeper
 nav_order: 3
-
+---
 
 # Usage & Gameplay
 
