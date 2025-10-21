@@ -15,7 +15,7 @@ nav_order: 5
 
 ## How to Install Script
 
-- download resource from **https://portal.cfx.re/assets** unzip and put in your resources folder
+- download resource from **[CFX Portal](https://portal.cfx.re/assets)** unzip and put in your resources folder
 
 ## Server.cfg
 ```
@@ -193,6 +193,7 @@ CREATE TABLE IF NOT EXISTS `beehives` (
 );
 ```
 # Restart Server and enjoy product
+
 
 
 
