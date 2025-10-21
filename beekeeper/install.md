@@ -1,7 +1,7 @@
 ---
 title : Installation
 parent: Beekeeper
-nav_order: 1
+nav_order: 2
 ---
 
 # Installation
@@ -193,3 +193,4 @@ CREATE TABLE IF NOT EXISTS `beehives` (
 );
 ```
 # Restart Server and enjoy product
+
