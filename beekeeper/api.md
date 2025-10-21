@@ -6,7 +6,7 @@ nav_order: 3
 
 ## Client --> Server
 ```
---Place beehivebox where players is standing (server check item and limit; spawns prop)
+--Place beehivebox where players is standing (server check item and limit: spawns prop)
 TriggerServerEvent('beekeeping:createHive', x, y, z, heading)
 
 -- Beehive Status  → server to client 'beekeeping:showStatus'
