@@ -15,3 +15,4 @@ nav_order: 1
 ## Scripts
 - [Car Thief](car-thief/index.md)
 - [Beekeeper](beekeeper/index.md)
+- [Hitman](hitman/index.md)
