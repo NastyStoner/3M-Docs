@@ -1,3 +1,6 @@
+title: Beekeeping
+nav_order: 2
+
 # Instalacija
 
 1. Resurs u `resources/[3m]/beekeeping`.
