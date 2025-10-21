@@ -7,29 +7,51 @@ nav_order: 4
 # API
 
 ## Server events
-- `automafija:tryStealVehicle(plate, modelName)` — store a vehicle into stolen pool (job‑restricted)
-- `automafija:returnVehicle(plate)` — return to owned_vehicles and spawn to caller
-- `automafija:deleteVehicleForCash(plate)` — delete from stolen pool and pay cash
-- `automafija:getStolenVehicles()` — open NUI garage with list
-- `automafija:buyNpc(npcId)` — buy/unlock a drop‑off NPC for the job
 
-## Server callbacks
-- `automafija:hasNpcAccess(cb)` → `{ [npcId]=true/false, ... }`
-- `automafija:canStoreVehicle(cb)` → `boolean`
-- `automafija:getStolenVehiclesForTablet(cb)` → `array` of `{ id, owner, vehicleLabel, registration, buybackPrice }`
+```lua
+-- automafija:tryStealVehicle(plate, modelName)
+-- Store a vehicle into the stolen pool (job-restricted)
+automafija:tryStealVehicle(plate, modelName)
 
-## Client events
-- `automafija:receiveStolenVehicles(vehicles)` — opens NUI garage
-- `automafija:spawnReturnedVehicle(vehiclePropsJson, plate)` — spawns vehicle to player and gives keys (if enabled)
-- `automafija:closeGarage()` — close NUI
-- `automafija:client:startCoding(meta)` — starts the Vehicle Coding minigame (client‑side)
+-- automafija:returnVehicle(plate)
+-- Return vehicle to owned_vehicles and spawn to caller
+automafija:returnVehicle(plate)
 
-## Client → NUI callbacks
-- `returnVehicle({ plate })`
-- `deleteVehicle({ plate })`
-- `getStolenVehicles()`
-- `closeGarage()`
+-- automafija:deleteVehicleForCash(plate)
+-- Delete from stolen pool and pay cash
+automafija:deleteVehicleForCash(plate)
 
-## Tablet app messaging
-- App id: `Config.Identifier` (default `automafija-app`)
-- When opened → server callback populates items; internal messages: `SET_CARS` (items array)
+-- automafija:getStolenVehicles()
+-- Open NUI garage with list
+automafija:getStolenVehicles()
+
+-- automafija:buyNpc(npcId)
+-- Buy/unlock a drop-off NPC for the job
+automafija:buyNpc(npcId)
+
+-- automafija:hasNpcAccess(cb)  ->  { [npcId]=true/false, ... }
+automafija:hasNpcAccess(function(map) ... end)
+
+-- automafija:canStoreVehicle(cb)  ->  boolean
+automafija:canStoreVehicle(function(canStore) ... end)
+
+-- automafija:getStolenVehiclesForTablet(cb)
+-- -> array of { id, owner, vehicleLabel, registration, buybackPrice }
+automafija:getStolenVehiclesForTablet(function(list) ... end)
+
+// returnVehicle({ plate })
+returnVehicle({ plate })
+
+// deleteVehicle({ plate })
+deleteVehicle({ plate })
+
+// getStolenVehicles()
+getStolenVehicles()
+
+// closeGarage()
+closeGarage()
+
+App id: Config.Identifier  (default: automafija-app)
+When opened: server callback populates items
+Internal messages: SET_CARS  (items array)
+
