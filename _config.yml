@@ -6,8 +6,13 @@ logo: /assets/images/3m-banner.png
 search_enabled: true
 aux_links_new_tab: true
 footer_content: "© 3M Studio"
-enable_copy_code_button: true
 plugins:
   - jekyll-seo-tag
+
+just_the_docs:
+  enable_copy_code_button: true   # copy gumb iznad code-blokova
+  # (po želji) podebljaj širinu sadržaja:
+  # content_width: "980px"
+
 stylesheets:
   - /assets/css/custom.css
