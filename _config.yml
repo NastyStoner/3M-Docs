@@ -11,7 +11,7 @@ plugins:
 
 just_the_docs:
   enable_copy_code_button: true   # copy gumb iznad code-blokova
-  # (po želji) podebljaj širinu sadržaja:
+  # (po želji) podebljaj širinu sadržajaa:
   # content_width: "980px"
 
 stylesheets:
