@@ -7,11 +7,8 @@ nav_order: 4
 # API
 
 ## Server events
-- ```automafija:tryStealVehicle(plate, modelName)
-- ```
-  
-- ```automafija:returnVehicle(plate)
-- ``` 
+- `automafija:tryStealVehicle(plate, modelName)` — store a vehicle into stolen pool (job‑restricted)
+- `automafija:returnVehicle(plate)` — return to owned_vehicles and spawn to caller
 - `automafija:deleteVehicleForCash(plate)` — delete from stolen pool and pay cash
 - `automafija:getStolenVehicles()` — open NUI garage with list
 - `automafija:buyNpc(npcId)` — buy/unlock a drop‑off NPC for the job
