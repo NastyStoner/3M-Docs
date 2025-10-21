@@ -1,3 +1,6 @@
+title: Car Thief
+nav_order: 1
+
 # Car Thief — Pregled
 
 Kratki opis skripte (što radi i zašto je posebna).
