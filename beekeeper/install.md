@@ -169,4 +169,27 @@ ensure beekeeper
     description = 'Worker Bumblebee.',
 },
 
+
 ```
+
+## Import Sql
+```
+CREATE TABLE IF NOT EXISTS `beehives` (
+  `id` INT AUTO_INCREMENT PRIMARY KEY,
+  `owner_identifier` VARCHAR(64) NOT NULL,
+  `x` DOUBLE NOT NULL, `y` DOUBLE NOT NULL, `z` DOUBLE NOT NULL,
+  `heading` DOUBLE NOT NULL DEFAULT 0,
+  `type` ENUM('bee','bumbar') NOT NULL DEFAULT 'bee',
+  `queen` TINYINT(1) NOT NULL DEFAULT 0,
+  `bees` INT NOT NULL DEFAULT 0,
+  `food` INT NOT NULL DEFAULT 0,
+  `water` INT NOT NULL DEFAULT 0,
+  `clean` INT NOT NULL DEFAULT 0,
+  `hive_hp` INT NOT NULL DEFAULT 100,
+  `bee_hp` INT NOT NULL DEFAULT 100,
+  `product` INT NOT NULL DEFAULT 0,
+  `golden_honey` INT NOT NULL DEFAULT 0,
+  `dark_honey` INT NOT NULL DEFAULT 0
+);
+```
+# Restart Server and enjoy product
