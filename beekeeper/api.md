@@ -1,7 +1,7 @@
 ---
 title: Events & Callbacks
 parent: beekeeper
-nav_order: 4
+nav_order: 3
 ---
 
 ## Client --> Server
