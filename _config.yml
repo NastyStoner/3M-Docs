@@ -1,16 +1,12 @@
 title: 3M Studio Docs
 description: Dokumentacija za 3M Studio skripte
-remote_theme: just-the-docs/just-the-docs   # Lijevi sidebar + search + dark
-color_scheme: dark                          # Tamna tema
-logo: /assets/images/3m-banner.png          # Banner/Logo na vrhu (dodaš sliku niže)
+remote_theme: just-the-docs/just-the-docs
+color_scheme: dark
+logo: /assets/images/3m-banner.png
 search_enabled: true
 aux_links_new_tab: true
 footer_content: "© 3M Studio"
-
-# Uključi naš custom CSS (boje + hero banner)
-stylesheets:
-  - /assets/css/custom.css
-
-# (Dozvoljen plugin na GitHub Pages—nije obavezno)
 plugins:
   - jekyll-seo-tag
+stylesheets:
+  - /assets/css/custom.css
