@@ -1,10 +1,16 @@
-# 3M Studio — Dokumentacija
+---
+title: 3M Studio — Dokumentacija
+layout: default
+---
 
-Dobrodošli u centralne docs za 3M Studio skripte. Ovo je **GitHub Pages** web koji radi bez ikakvih dodatnih alata.
-Sve pišete u običnom Markdownu (`.md` datoteke).
+<div class="hero">
+  <img src="/assets/images/3m-banner.png" alt="3M Studio">
+  <div>
+    <h1>3M Studio — Docs</h1>
+    <p>Tamna, čista dokumentacija za tvoje FiveM skripte. Lijevo su skripte; klikni i čitaj.</p>
+  </div>
+</div>
 
 ## Skripte
 - [Car Thief](car-thief/index.md)
 - [Beekeeping](beekeeping/index.md)
-
-> Dodajte nove skripte tako da napravite novu mapu i `index.md` datoteku, pa ovdje dodate link.
