@@ -16,3 +16,4 @@ nav_order: 1
 - [Car Thief](car-thief/index.md)
 - [Beekeeper](beekeeper/index.md)
 - [Hitman](hitman/index.md)
+- [Christmas](zicbo/index.md)
