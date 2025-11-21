@@ -1,3 +1,9 @@
+---
+title : Installation
+parent: 3M Christmas Event
+nav_order: 2
+---
+
 # Installation
 
 ## 1. Download & folder structure
