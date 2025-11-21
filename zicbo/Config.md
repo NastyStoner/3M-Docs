@@ -1,5 +1,5 @@
 ---
-title : Installation
+title : Configuration
 parent: 3M Christmas Event
 nav_order: 1
 ---
