@@ -1,3 +1,9 @@
+---
+title : Items
+parent: 3M Christmas Event
+nav_order: 3
+---
+
 # Items & Integration
 
 This resource expects several items to exist in your inventory system.  
