@@ -1,3 +1,9 @@
+---
+title : Usage
+parent: 3M Christmas Event
+nav_order: 4
+---
+
 # Usage (Gameplay Flow)
 
 This section explains how the script works from the player perspective.
