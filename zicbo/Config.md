@@ -1,3 +1,9 @@
+---
+title : Installation
+parent: 3M Christmas Event
+nav_order: 1
+---
+
 # Configuration
 
 All options are in `config.lua`.  
