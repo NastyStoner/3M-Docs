@@ -1,3 +1,9 @@
+---
+title : Developers
+parent: 3M Christmas Event
+nav_order: 5
+---
+
 # Developer API (Exports & Events)
 
 This resource exposes a few useful integration points for other scripts:
