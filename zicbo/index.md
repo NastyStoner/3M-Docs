@@ -1,6 +1,9 @@
+---
 title: 3M Christmas Event
 has_children: true
 nav_order: 4
+---
+
 
 # 3M Christmas Event
 
